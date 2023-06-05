@@ -9,7 +9,7 @@ You can check out the project [here](https://preeminent-pegasus-4ce74a.netlify.a
 Feel free to explore and provide any feedback or suggestions. Enjoy!
 
 ## Project Image
-![Project Image](https://github.com/prynskaf/pixel-perfect-simple/blob/main/images/project-image.jpg)
+![Project Image](https://github.com/prynskaf/pixel-perfect-simple/blob/main/images/simple%20-%20pixel-perfect.png?raw=true)
 This is a snapshot of the project showcasing its pixel-perfect design.
 
 
