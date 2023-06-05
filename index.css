@@ -1,0 +1,112 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+html {
+    scroll-behavior: normal;
+}
+
+body {
+    height: 100vh;
+    width: 100vw;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background: rgb(238,174,202);
+}
+
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    border: 8px solid red;
+    width: auto;
+    height: 328px;
+    background-color: white;
+    overflow: hidden;
+    
+}   
+
+
+.main__text-1  p {
+    font-size: 18px;
+    padding-left: 10px;
+    padding-top: 20px;
+}
+
+hr {
+   
+ margin-top: 30px;
+}
+.main__text-2 {
+   font-size: 16px;
+   display: flex;
+   flex-direction: column;
+   gap: 10px;
+margin: 20px 0;
+}
+
+.main__text-2  h5 ,   .main__text-2  p {
+   font-size: 18px;
+   font-weight: bold;
+}
+.main__text-2  .green {
+   font-size: 16px;
+   font-weight: bold;
+   color: rgb(48, 143, 44);
+}
+
+
+.main__button {
+    background-color: hsl(0,0%,23.14%);
+    min-width: 100%;
+    min-height: 30%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    overflow-x: hidden;
+    
+    
+    
+    }
+    
+    .main__button .btn {
+    padding: 13px;
+    border-radius: 10px;
+    border: none;
+    background-color:hsl(46.35,100%,50%);
+    font-size: 16px;
+    font-weight: bold;
+    }
+
+
+    .main__button .btn .bi {
+        padding: 10px;
+    }
+
+
+
+
+/* mobile */
+@media(min-width: 1px) {
+    .container {
+        margin: auto;
+        max-width: 500px;
+        width: 100vw;
+        height: 100vh;
+       
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+   
+    }
+    }
+
+
+
